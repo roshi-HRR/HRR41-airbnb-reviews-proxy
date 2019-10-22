@@ -1,0 +1,19 @@
+{
+  "name": "hrr41-airbnb-reviews-proxy",
+  "version": "1.0.0",
+  "description": "The proxy I will use to render all services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roshi-HRR/HRR41-airbnb-reviews-proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roshi-HRR/HRR41-airbnb-reviews-proxy/issues"
+  },
+  "homepage": "https://github.com/roshi-HRR/HRR41-airbnb-reviews-proxy#readme"
+}
