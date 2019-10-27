@@ -4,7 +4,8 @@
   "description": "The proxy I will use to render all services",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/roshi-HRR/HRR41-airbnb-reviews-proxy/issues"
   },
-  "homepage": "https://github.com/roshi-HRR/HRR41-airbnb-reviews-proxy#readme"
+  "homepage": "https://github.com/roshi-HRR/HRR41-airbnb-reviews-proxy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^0.20.0",
+    "mongo": "^0.1.0",
+    "node": "^12.12.0"
+  }
 }
